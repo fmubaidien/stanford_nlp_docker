@@ -42,7 +42,7 @@ public class ControllerToken {
         for(CoreLabel coreLabel :coreLabelList) {
 
             toke.add(coreLabel.originalText());
-
+//
 
         }
         obj.put("Tokenizer", toke);
